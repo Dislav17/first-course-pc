@@ -42,6 +42,12 @@ a {
   color: #fff;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+}
+
 button {
   padding: 10px 30px;
   border-radius: 50px;
@@ -57,6 +63,7 @@ button {
 
 .hero {
   background-image: url(/img/background/main-screen__bgc.png);
+  background-repeat: no-repeat;
 }
 /* Начало хедера */
 
@@ -227,9 +234,6 @@ button {
 .about-description h2 {
   padding-bottom: 44px;
   padding-top: 68px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 66px;
 }
 
 .about-description p {
@@ -247,10 +251,7 @@ button {
 }
 
 .start-title h2 {
-  padding-left: 20px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 67px;
+  padding-left: 40px;
 }
 
 .start-description p {
@@ -263,12 +264,6 @@ button {
 .start-block {
   padding-bottom: 200px;
   display: flex;
-}
-
-.start-block h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 50px;
 }
 
 .start-block p {
@@ -322,9 +317,6 @@ button {
 /* Старт Преимущества професси */
 .benefit-profession__title h2 {
   padding-bottom: 120px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 67px;
   text-align: center;
 }
 
@@ -348,7 +340,7 @@ button {
 }
 
 .profession-item p {
-  font-style: 16px;
+  font-size: 16px;
   line-height: 26px;
   text-align: center;
   opacity: 0.8;
@@ -358,3 +350,116 @@ button {
   padding:0 80px;
 }
 /* Конец Преимущества професси */
+
+/* Cтарт Партнеры */
+.partners-wrapper {
+  padding-bottom: 242px;
+}
+.partners-title {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.partners-title h2 {
+  padding-left: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+td,th {
+  padding: 30px 62px;
+}
+
+tr:first-child {
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+td {
+  border-left: 1px solid rgb(71, 71, 71); ;
+}
+
+.border-none {
+  border-left: none;
+}
+
+
+/* Конец Партнеры */
+
+/* Старт Программа */
+
+.training-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.training-title img {
+  padding-bottom: 76px;
+}
+
+.training-title h2 {
+  padding-bottom: 30px;
+}
+
+.training-description p {
+  padding-bottom: 80px;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.5;
+}
+
+.training-way {
+  display: flex;
+  align-self: center;
+}
+
+.training-nav-left h4 {
+  padding: 16px 60px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+.training-nav-left p {
+  padding-right: 60px;
+  padding-bottom: 88px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: right;
+  border-top: 1px solid #FFFFFF;
+}
+
+.training-tape {
+  height: 740px;
+  border-left: 6px solid;
+  border-image: linear-gradient( to right, #7C6AFA,#C89AFC ) 0% 1%;
+}
+
+.training-nav-right {
+  padding-top: 40px;
+}
+
+.training-nav-right h4{
+  padding: 16px 60px;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.training-nav-right p {
+  padding-left: 60px;
+  padding-bottom: 88px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  border-top: 1px solid #FFFFFF;
+}
+
+/* Конец Программа */
+
