@@ -5,9 +5,11 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #000;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
     
 }
 
@@ -15,6 +17,19 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+} 
 
 .container {
   width: 1316px;
@@ -45,20 +60,135 @@ a {
 
 .header-button button {
   margin-right: 80px;
-  padding: 10px 30px;
   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-
 }
 
 /* Конец хедера */
 
 /* Cтарт мейн */
 .main-title {
+  padding-top: 196px;
   font-size: 64px;
   font-weight: 700;
   line-height: 90px;
+}
+
+.main-countdown {
+  padding-top: 50px;
+  display: flex;
+  padding-bottom: 218px;
+  
+}
+
+.main-countdown__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 102px;
+  height: 112px;
+  background: #121212;
+}
+
+.main-countdown__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.item-num {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.4;
+}
+
+.main-tape {
+  margin-bottom: 8px;
+  align-items: center;
+  background: #121212;
+}
+
+.main-tape__wrapper {
+  display: flex;
+}
+
+.main-tape__wrapper span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-tape__wrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.4;
+}
+
+.main-tape__button button {
+  margin: 42px 82px 42px auto;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.main-tape__users {
+  margin: 36px 82px 36px 0;
+}
+
+.total-users {
+  display: flex;
+  align-items: center;
+}
+.total-users p {
+  padding-bottom: 10px;
+  padding-right: 100px;
+}
+
+.completed-users {
+  display: flex;
+  align-items: center;
+}
+
+.completed-users p {
+  padding-right: 30px;
+}
+
+.users-earnings {
+  margin: 36px 0 28px 0;
+}
+
+.users-earnings__info {
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.users-earnings__info p {
+  padding-right: 30px;
+}
+
+.users-earnings__strip {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.4;
+}
+
+.users-earnings__strip .strip-one {
+  padding-right: 440px;
+  border-top: 6px solid;
+  border-image: linear-gradient( to right, #DF5950, #451046) 1% 0%;
+}
+
+.users-earnings__strip .strip-two {
+  padding-left: 224px;
+  border-top: 6px solid #ffffff;
+
 }
 /* Конец мейн */
