@@ -54,17 +54,21 @@ button {
   border: none;
   cursor: pointer;
   color: #fff;
-} 
+}
+
+.hero {
+  background-image: url(/img/background/main-screen__bgc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 .container {
   width: 1316px;
   margin: 0 auto;
 }
 
-.hero {
-  background-image: url(/img/background/main-screen__bgc.png);
-  background-repeat: no-repeat;
-}
+
 /* Начало хедера */
 
 .header {
@@ -462,4 +466,136 @@ td {
 }
 
 /* Конец Программа */
+
+/* Cтарт Преподаватели */
+.teachers {
+  padding-bottom: 200px;
+}
+
+.teachers-title {
+  padding-top: 128px;
+  display: flex;
+  align-items: center;
+}
+
+.teachers-title h2 {
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.teachers-cards {
+  padding-top: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teachers-cards .cards-item {
+  padding: 0 114px;
+  text-align: center;
+}
+
+
+.cards-item h3 {
+  padding-top: 40px;
+  padding-bottom: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.cards-item p { 
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+
+.cards-item button {
+  padding: 10px 30px;
+  background-color: inherit;
+  border: 1px solid #fff;
+}
+
+
+/* Конец Преподаватели */
+
+/* Старт Футер */
+
+.footer {
+  text-align: center;
+}
+
+.footer-title h2 {
+  padding-bottom: 30px;
+} 
+
+.footer-title p {
+  padding-bottom: 60px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.footer-form input {
+  padding-top: 10px;
+  padding-right: 280px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background-color: rgb(151, 149, 149);
+  color: #FFF;
+}
+
+input::-webkit-input-placeholder { color: #fff; opacity: 0.25; }
+
+
+.footer-form button {
+  position: absolute;
+  top: 0px;
+  left: 770px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.footer-social {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social div:not(:last-child) {
+  padding-right: 30px;
+}
+
+.footer-social div {
+  position: relative;
+}
+
+.footer-social a {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.footer-social .insta a { 
+  left: 25%;
+}
+
+.footer-copyright {
+  padding-bottom: 30px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+/* Конец Футер */
 
