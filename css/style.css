@@ -599,3 +599,183 @@ input::-webkit-input-placeholder { color: #fff; opacity: 0.25; }
 
 /* Конец Футер */
 
+@media (max-width:480px) {
+  .hero {
+    background-position: 69%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .header {
+    padding-top: 20px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-button button {
+    margin-right: 46px;
+  }
+
+  .main-title {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .main-countdown {
+    padding-bottom: 40px;
+  }
+
+  .main-tape {
+    margin: 0;
+  }
+
+  .main-tape__wrapper {
+    flex-direction: column;
+  }
+  .main-tape__button {
+    text-align: center;
+  }
+  .main-tape__button button {
+    margin: 0;
+  }
+
+  .main-tape__users {
+    margin: 30px 0 0 40px;
+  }
+  
+  .users-earnings {
+    display: none;
+  }
+
+  .about {
+    margin: 0;
+    display: block;
+  }
+  
+  .about-background img {
+    padding: 10px;
+    width: 165%;
+  }
+  
+  .about-description {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .start {
+    text-align: center;
+  }
+
+  .start-description {
+    white-space: wrap;
+  }
+  
+  .start-block {
+    padding-bottom: 30px;
+    flex-direction: column;
+  }
+  
+  .start-block p {
+    padding-bottom: 16px;
+  }
+
+  .benefit-profession__items {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefit-profession__title h2 {
+    padding-bottom: 40px;
+  }
+
+  .profession-item {
+    padding: 0 20px;
+  }
+
+  .profession-item img {
+    padding: 40px 0;
+  }
+
+  .profession-item p:not(last-child) {
+    padding: 0 30px 20px 30px;
+  }
+
+  .partners-wrapper {
+    padding-bottom: 40px;
+  }
+
+  .partners-title {
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+  }
+
+  .partners-table {
+    display: none;
+  }
+  
+  .training-title img {
+    padding-bottom: 20px;
+  }
+
+  .training-way {
+    border: 1px solid #fff;
+    display: block;
+  }
+
+  .training-way h4 {
+    text-align: center;
+  }
+
+  .training-way p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .training-tape {
+    display: none;
+  }
+
+  .teachers-title {
+    padding-top: 40px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .teachers-title h2 {
+    padding: 10px;
+  }
+  
+  .teachers-cards {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teachers-cards .cards-item {
+    padding-bottom: 40px;
+  }
+
+  .footer-form {
+    flex-direction: column;
+  }
+
+  .footer-form input {
+    padding: 10px 30px;
+    border-radius: 50px;
+  }
+
+  .footer-form button {
+    margin-top: 20px;
+    position: static;
+
+  }
+}
